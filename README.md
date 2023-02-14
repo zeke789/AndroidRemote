@@ -1,5 +1,7 @@
 # AndroidRemote
-Aplicación de control remoto para Android Cliente/Servidor mediante conección TCP Reversa en segundo plano. Servidor para múltiples clientes.
+Aplicación de control remoto para Android Cliente/Servidor.
+-Conección TCP Reversa en segundo plano  
+-Servidor para múltiples clientes  
 
 
 El servidor compilarlo en NetBeans  y el cliente en Android Studio
@@ -21,12 +23,12 @@ El servidor compilarlo en NetBeans  y el cliente en Android Studio
 
 
 	# EJEMPLO CON NGROK #
--Abrir conección tcp con ngrok en el puerto deseado, por ejemplo "ngrok tcp 1234"
+-Abrir conección tcp con ngrok en el puerto deseado, por ejemplo "ngrok tcp 1234"  
 
--En la app de android en Config usar el host y puerto que devuelve el paso anterior
+-En la app de android en Config usar el host y puerto que devuelve el paso anterior  
 
--Para poner server a la escucha ejecutar la aplicación Servidor, indicar en este caso puerto 1234 y click a Start
+-Ejecutar cliente en tu Android, va a tratar de conectarse siempre que no esté conectado. Se puede cerrar la app, queda ejecutando en segundo plano  
 
--Una vez instalado,ejecutado y aceptado permisos en tu Android dar click a Iniciar. Se puede cerrar la app, queda ejecutando en background
+-Para poner server a la escucha ejecutar la aplicación Servidor, indicar en este caso puerto 1234 y click a Start  
 
--Para detener el servicio click en la notificación generada en tu Android
+-Para detener el servicio click en la notificación generada en tu Android  
