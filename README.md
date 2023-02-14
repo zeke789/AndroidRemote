@@ -6,14 +6,14 @@ El servidor compilarlo en NetBeans  y el cliente en Android Studio
 
 
 
-# FUNCIONES
+	# FUNCIONES #
 
--Info del dispositivo y geolocalización
--Ver y enviar SMS
--Ver y descargar archivos
--Ver todas las aplicaciones instaladas
--Generación y descarga de miniaturas de imágenes
--Generación y descarga de "captura miniatura" de videos
+-Info del dispositivo y geolocalización  
+-Ver y enviar SMS  
+-Ver y descargar archivos  
+-Ver todas las aplicaciones instaladas  
+-Generación y descarga de miniaturas de imágenes  
+-Generación y descarga de "captura miniatura" de videos  
 
 ![alt text](https://i.ibb.co/FhwQcP7/img1.png)
 
